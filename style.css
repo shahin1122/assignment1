@@ -1,0 +1,396 @@
+/* google fonts
+
+normal..1
+font-family: 'Big Shoulders Stencil Text', cursive;
+
+stylish
+font-family: 'Comfortaa', cursive;
+
+normal...2
+font-family: 'Work Sans', sans-serif; 
+
+
+nav font
+font-family: 'Josefin Slab', serif;
+
+
+*/
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(241, 241, 241, 0.438);
+}
+
+
+
+section{
+    height: 500px;
+}
+
+
+/* nav-bar starts */
+
+.nav-bar{
+    background-image: linear-gradient(to right, tomato , coral);
+    height: 100px;
+}
+
+.nav-bar ul{
+    margin-right: 50px;
+}
+
+
+.nav-bar ul li{
+    float: right;
+    margin: 20px;
+    padding: 20px;
+    list-style-type: none;
+}
+
+.nav-bar ul li a{
+    text-decoration: none;
+    background-color: rgb(180, 112, 30);
+    padding: 15px;
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: cornsilk;
+    border-radius: 5px;
+    font-weight: bolder;
+    transition: 00.3s;
+    
+}
+
+.nav-bar ul li a:hover{
+    box-shadow: 10px 10px 12px rgba(63, 45, 21, 0.363);
+    transform: scale(1.03);
+    background-image: linear-gradient(to right, rgba(236, 114, 0, 0.74) , rgba(127, 206, 0, 0.699));
+    
+}
+
+
+
+
+/* nav-bar ends */
+
+
+
+
+
+/* half-width section starts */
+
+
+.main-body{
+    margin: 20px auto;
+
+}
+
+
+.half-width{
+    width: 40%;
+    float: left;
+    padding-left: 5%;
+    padding-bottom: 10%;
+    
+
+    
+    
+}
+
+
+
+.about-me{
+    margin-top: 100px;
+    margin-left: 10%;
+}
+
+.half-width img{
+    width: 70%;
+    padding-left: 2%;
+
+}
+
+
+h1{
+    font-size: 3rem;
+    font-family: 'Comfortaa', cursive;
+    color: rgb(59, 58, 58);
+   
+
+}
+
+span{
+    color: coral;
+}
+
+p{
+    font-family: 'Work Sans', sans-serif; 
+    font-size: 1rem;
+
+}
+
+
+.btn{
+    margin-top: 2rem;
+    
+    font-family: 'Work Sans', sans-serif; 
+    padding: 10px;
+    border: 2px solid rgb(14, 14, 27);
+    text-decoration: none;
+    border-radius: 2px;
+    transition: 0.4s;
+}
+
+
+.btn:hover {
+    background-color: #fc6b03;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+  }
+
+
+
+  .download-btn{
+    margin-top: 2rem;
+    
+    font-family: 'Work Sans', sans-serif; 
+    padding: 10px;
+    border: 2px solid rgb(14, 14, 27);
+    text-decoration: none;
+    border-radius: 2px;
+    transition: 0.4s;
+
+  }
+
+
+  .download-btn:hover{
+
+    background-color: #098fe7;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+
+  }
+
+
+
+  
+
+
+
+/* half-width section ends */
+
+
+
+
+/* card section starts */
+
+
+h3{
+
+    font-family: 'Work Sans', sans-serif; 
+    color: darkslategray;
+
+
+}
+
+
+
+
+
+.project-area{
+    clear: both;
+    background-color: rgba(169, 169, 169, 0.233);
+    height: 700px;
+    padding-top: 100px;
+    text-align: center;
+    
+    
+    
+}
+
+
+.card-area{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+
+
+.card{
+    width: 30%;
+    float: left;
+    text-align: center;
+
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: 10px 10px 14px rgb(219, 217, 217);
+
+    transition: 0.3s;
+
+    
+    
+}
+
+
+.card:hover{
+    box-shadow: 10px 10px 14px rgb(133, 133, 133);
+    transform: scale(1.03);
+    
+
+}
+
+
+
+
+
+.card img{
+    width: 95%;
+}
+
+.card img:hover{
+    opacity: 90%;
+}
+
+
+
+/* card section ends */
+
+
+/* work area starts  */
+
+
+
+
+
+.work-area{
+    
+    background-image: url("./img/work_inq.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 65%;
+    margin: 100px auto;
+    border-radius: 20px;
+}
+
+
+.work{
+    width: 40%;
+    float: left;
+    padding-left: 10%;
+    padding-top: 10%;
+    
+    
+}
+
+.work h1{
+    color: floralwhite;
+}
+
+
+.button{
+    float: right;
+    padding-top: 15%;
+    padding-right: 10%;
+
+}
+
+.button .btn{
+    background-color: rgb(219, 132, 0);
+    padding: 20px;
+    border-radius: 5px;
+    color: gainsboro;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.button .btn:hover{
+    box-shadow: 10px 10px 14px rgb(17, 3, 75);
+    transform: scale(1.03);
+
+}
+
+
+/* work area ends */
+
+
+
+/* Footer starts */
+
+
+
+footer{
+    text-align: center;
+    height: 300px;
+}
+
+.icon img{
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+    margin-left: 40px;
+    margin-right: 50px;
+    transition: 0.3s;
+}
+
+.icon img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+
+}
+
+h4{
+
+    font-family: 'Work Sans', sans-serif; 
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: rgb(104, 103, 103);
+    letter-spacing: 0.5rem;
+    
+
+}
+
+h2{
+    font-family: 'Work Sans', sans-serif; 
+    font-size: 2rem;
+    color: rgb(104, 103, 103);
+    
+
+}
+
+
+/* footer ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
